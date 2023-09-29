@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 # A script that displays Best School 10 times using for
 
-for ((i = 1; i <= 10; i++))
+best="Best School"
+amount=10
+
+for ((i = 0; i < amount; i++))
 do
-    echo "Best School"
+    echo "$best"
 done
